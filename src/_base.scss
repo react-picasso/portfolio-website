@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+$title-font: "Bodoni Moda", cursive;
+$body-font: "Nunito", sans-serif;
+$black-bg: #1c2321;
+$blue: #0047ab;
+$white: #ffffff;
+$gray: #7d98a1;
+
+body {
+    background-color: $black-bg;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+p {
+    font-family: $title-font;
+}
+
+.title-font {
+    font-family: $title-font;
+}
+
+.white-text {
+    color: $white;
+}
+
+.blue-text {
+    color: $blue;
+}
+
+.gray-text {
+    color: $gray;
+}
