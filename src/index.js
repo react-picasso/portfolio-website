@@ -17,10 +17,10 @@ root.render(
     <Router>
         <SideMenu />
         <Routes>
-            <Route path="/prathamesh-kulkarni" element={<MainPage />} />
-            <Route path="/prathamesh-kulkarni/about" element={<About />} />
-            <Route path="/prathamesh-kulkarni/portfolio" element={<Portfolio />} />
-            <Route path="/prathamesh-kulkarni/contact" element={<Contact />} />
+            <Route path="/personal-portfolio" element={<MainPage />} />
+            <Route path="/personal-portfolio/about" element={<About />} />
+            <Route path="/personal-portfolio/portfolio" element={<Portfolio />} />
+            <Route path="/personal-portfolio/contact" element={<Contact />} />
         </Routes>
     </Router>
 );

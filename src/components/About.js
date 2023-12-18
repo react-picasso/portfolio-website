@@ -1,5 +1,5 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+// import { Carousel } from 'react-responsive-carousel';
 
 
 const About = () => {
@@ -19,11 +19,6 @@ const About = () => {
       <section className="about-cotainer-2">
         <h2 className="title-font  blue-text">Stack &#38; Technologies</h2>
         <section className="stack-section">
-        <Carousel
-        autoPlay="true"
-        interval="2000"
-        infiniteLoop="true"
-        >
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
             alt="css3"
@@ -68,7 +63,6 @@ const About = () => {
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
             alt="figma"
           ></img>
-          </Carousel>
         </section>
       </section>
     </article>

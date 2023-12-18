@@ -47,7 +47,7 @@ const SideMenu = () => {
             </section>
             <section className="main-menu">
                 <Link
-                    to="/prathamesh-kulkarni"
+                    to="/personal-portfolio"
                     className="gray-text"
                     onClick={() => {
                         ResetLocation();
@@ -58,7 +58,7 @@ const SideMenu = () => {
                 </Link>
                 <section className="menu-links">
                     <NavLink
-                        to="/prathamesh-kulkarni"
+                        to="/personal-portfolio"
                         className="gray-text"
                         onClick={() => {
                             ResetLocation();
@@ -68,7 +68,7 @@ const SideMenu = () => {
                         Main
                     </NavLink>
                     <NavLink
-                        to="/prathamesh-kulkarni/about"
+                        to="/personal-portfolio/about"
                         className="gray-text"
                         onClick={() => {
                             ResetLocation();
@@ -78,7 +78,7 @@ const SideMenu = () => {
                         About
                     </NavLink>
                     <NavLink
-                        to="/prathamesh-kulkarni/portfolio"
+                        to="//personal-portfolio/portfolio"
                         className="gray-text"
                         onClick={() => {
                             ResetLocation();
@@ -88,7 +88,7 @@ const SideMenu = () => {
                         Portfolio
                     </NavLink>
                     <NavLink
-                        to="/prathamesh-kulkarni/contact"
+                        to="/personal-portfolio/contact"
                         className="gray-text"
                         onClick={() => {
                             ResetLocation();
